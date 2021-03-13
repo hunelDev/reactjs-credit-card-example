@@ -5,7 +5,7 @@ import App from "./app";
 import { HunelProvider, HunelCreditCard } from "reactjs-credit-card";
 
 const hunel = new HunelCreditCard({
-  middlePartHide: false, //
+  middlePartHide: true, //set true to mask credit card number on the card
 });
 
 ReactDOM.render(
